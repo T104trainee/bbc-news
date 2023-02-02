@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* This style below will be inherited */
+  font-family: Roboto, Arial;
+  margin: 0;
+  background-color: white;
+}
+
+.header-container {
+  background-color: black;
+  height: 26px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 25px 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  justify-content: space-between;
+}
+.logo {
+  width: 102px;
+  height: 32px;
+  margin-right: 10px;
+}
+#topnav-signin {
+  width: 50px;
+  background-color: transparent;
+}
+
+.user-icon {
+  width: 50px;
+}
+.nav-list-items {
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 14px;
+  margin-right: 20px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.list-item {
+  margin: 15px;
+}
+.advertisement-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  background-size: cover;
+  height: 150px;
+  margin: 0;
+}
+.advertisement-image {
+  width: 120px;
+  height: 30px;
+}
+.content-container {
+  background-color: white;
+  margin-top: 30px;
+  background-size: cover;
+  margin: 20px 80px;
+}
+.heading-container {
+  display: flex;
+  justify-content: space-between;
+}
+.images-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+.middle-column {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+.right-column {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+.image1-container {
+  position: relative;
+  color: white;
+}
+.image1 {
+  width: 660px;
+  height: 350px;
+  filter: brightness(80%);
+}
+
+.russia {
+  position: absolute;
+  font-size: 30px;
+  bottom: 28px;
+  left: 36px;
+}
+.image {
+  width: 300px;
+  margin-bottom: 10px;
+}
